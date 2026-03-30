@@ -8,6 +8,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Please add your functional changes to the appropriate section in the PR.
 Keep it human-readable, your future self will thank you!
 
+## [0.5.36](https://github.com/ecmwf/anemoi-datasets/compare/0.5.35...0.5.36) (2026-03-30)
+
+
+### Features
+
+* **create:** Add workaround for missing data at step zero ([#565](https://github.com/ecmwf/anemoi-datasets/issues/565)) ([9fd4733](https://github.com/ecmwf/anemoi-datasets/commit/9fd4733497f556fe1c870bfcad4e8da6650ce57b))
+* Fix issue 569 ([#574](https://github.com/ecmwf/anemoi-datasets/issues/574)) ([7f4e40a](https://github.com/ecmwf/anemoi-datasets/commit/7f4e40a00bc186725e82edbfde1d2b35f1356266))
+* Fix typo with duplicates ([#580](https://github.com/ecmwf/anemoi-datasets/issues/580)) ([f33333e](https://github.com/ecmwf/anemoi-datasets/commit/f33333e3766001d053b776c1716b70ceb79f14e5))
+* Observations feature branch ([#480](https://github.com/ecmwf/anemoi-datasets/issues/480)) ([92d5ac9](https://github.com/ecmwf/anemoi-datasets/commit/92d5ac95506f363ad5d9a8eec94b21cc0e11b692))
+
+
+### Bug Fixes
+
+* **create:** Repeated-dates ([#572](https://github.com/ecmwf/anemoi-datasets/issues/572)) ([b73d533](https://github.com/ecmwf/anemoi-datasets/commit/b73d533ee5dd351e8cc390255eff6642b497823f))
+* Fix race condition during build ([#593](https://github.com/ecmwf/anemoi-datasets/issues/593)) ([66e2070](https://github.com/ecmwf/anemoi-datasets/commit/66e2070ca985edd601d7af7d7645dd45bc36e125))
+* Make dataset naming function public ([#579](https://github.com/ecmwf/anemoi-datasets/issues/579)) ([b089bb0](https://github.com/ecmwf/anemoi-datasets/commit/b089bb09e071f37d44731a91a9f579f73abcdd8a))
+* Netcdf date/time metadata type should be int ([#555](https://github.com/ecmwf/anemoi-datasets/issues/555)) ([9937fbe](https://github.com/ecmwf/anemoi-datasets/commit/9937fbe5ea16d4bf57d7a9cc6afeedc05be81b44))
+* Remove duplicate code ([#590](https://github.com/ecmwf/anemoi-datasets/issues/590)) ([8e54420](https://github.com/ecmwf/anemoi-datasets/commit/8e54420c20af9554121ae03fc556e7022864b8f7))
+* Remove empty accumulators from accumulation computation ([#561](https://github.com/ecmwf/anemoi-datasets/issues/561)) ([3bc087d](https://github.com/ecmwf/anemoi-datasets/commit/3bc087d3e365fbf60b1e9b47350b039af61027de))
+* Rolling average regression ([#587](https://github.com/ecmwf/anemoi-datasets/issues/587)) ([04f5b0b](https://github.com/ecmwf/anemoi-datasets/commit/04f5b0b5254ef480ff3c942256ea4080c21f7186))
+
 ## [0.5.35](https://github.com/ecmwf/anemoi-datasets/compare/0.5.34...0.5.35) (2026-03-09)
 
 
